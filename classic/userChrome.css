@@ -180,7 +180,7 @@
 /************************************************************************************************/
 
 /* navigation toolbar buttons appearance - [only use one at a time] *****************************/
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+/* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_windows_classic_theme_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_glass_appearance.css";			/* <--- good for Dark themes */
@@ -204,7 +204,7 @@
 /* @import "./css/buttons/buttons_on_navbar_more_compact_mode_custom_icons_fix.css"; /**/
 
 /* icon appearance - [only use one at a time] (custom icons do not scale in HiDPI modes) ********/
-@import "./css/buttons/icons_colorized.css"; /**/
+/* @import "./css/buttons/icons_colorized.css"; /**/
 /* @import "./css/buttons/icons_white_icons.css"; /**/
 /* @import "./css/buttons/icons_custom_icons.css"; /**/  /* aka "Mozilla Mix" from CTB */
 /* @import "./css/buttons/icons_custom_icons_fx1.css"; /**/
@@ -283,7 +283,7 @@
 
 /* application/hamburger button popup ***********************************************************/
 @import "./css/appbutton/appbutton_popup_more_icons.css"; /**/
-@import "./css/appbutton/appbutton_popup_icons_colorized.css"; /**/
+/* @import "./css/appbutton/appbutton_popup_icons_colorized.css"; /**/
 /* @import "./css/appbutton/appbutton_popup_sync_hidden.css"; /**/
 /* @import "./css/appbutton/appbutton_popup_logins_and_passwords_hidden.css"; /**/
 /* @import "./css/appbutton/appbutton_popup_trackingprotection_hidden.css"; /**/
@@ -325,7 +325,7 @@
 /* @import "./css/appbutton/appbutton_in_titlebar_icon_only.css"; /**/
 /* @import "./css/appbutton/appbutton_in_titlebar_icon_only_dark.css"; /**/
 /* @import "./css/appbutton/appbutton_in_titlebar_icon_only_grey.css"; /**/
-/* @import "./css/appbutton/appbutton_in_titlebar_icon_only_browser_logo.css"; /**/
+/*  @import "./css/appbutton/appbutton_in_titlebar_icon_only_browser_logo.css"; /**/
 /* @import "./css/appbutton/appbutton_in_titlebar_label_and_icon.css"; /**/
 /* @import "./css/appbutton/appbutton_in_titlebar_label_and_icon_dark.css"; /**/
 /* @import "./css/appbutton/appbutton_in_titlebar_label_and_icon_grey.css"; /**/
@@ -340,7 +340,7 @@
 /* @import "./css/appbutton/appbutton_in_titlebar_fx71_fix.css"; /**/
 /* [!] tabs on top + menubar hidden + appbutton icon only */
 /* [!] tabs not on top + menubar hidden/visible + appbutton icon only */
-/* @import "./css/appbutton/appbutton_in_titlebar_fx71_fix2.css"; /**/
+@import "./css/appbutton/appbutton_in_titlebar_fx71_fix2.css"; /**/
 /* [!] tabs on top + menubar visible + appbutton label */
 /* @import "./css/appbutton/appbutton_in_titlebar_fx71_fix3.css"; /**/
 /* [!] tabs on top + menubar visible + appbutton icon only */
@@ -363,8 +363,8 @@
 /************************************************************************************************/
 
 /* custom tab appearance - [only use one at a time] *********************************************/
-@import "./css/tabs/classic_squared_tabs.css"; /**/
-/* @import "./css/tabs/classic_squared_tabs_australized.css"; /**/
+/* @import "./css/tabs/classic_squared_tabs.css"; /**/
+@import "./css/tabs/classic_squared_tabs_australized.css"; /**/
 
 /* custom tab colors are set inside color_variables***.css file(s) ******************************/
 
@@ -387,7 +387,7 @@
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx65_macOS_default_tabs.css"; /**/ /* <-- tabs not on top - Fx65+ - macOS - default tabs */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx65_v2.css"; /**/ /* <-- tabs not on top - Fx65+ - Windows/Linux - only for multi-lined tabs support, causes glitches with disabled menubar */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx65_v2_force_hidden_menubar.css"; /**/ /* tabs not on top - Fx65+ - Windows/Linux - only for multi-lined tabs support - no menubar with OS titlebar */
-/* @import "./css/tabs/tabs_below_navigation_toolbar_fx68.css"; /**/ /* <-- tabs not on top - Fx68+ - Windows/Linux */
+@import "./css/tabs/tabs_below_navigation_toolbar_fx68.css"; /**/ /* <-- tabs not on top - Fx68+ - Windows/Linux */
 /* - TABS BELOW MAIN CONTENT (tabs on bottom) - EXPERIMENTAL ************************************/
 /* [!] SUPPORT THREAD: https://github.com/aris-t2/customcssforfx/issues/33 **********************/
 /* [!] not compatible to 'tabs toolbar - multiple tab lines' option *****************************/
@@ -433,7 +433,7 @@
 /* [!] some internal pages only show default browser title **************************************/
 /* [!] might not always work correctly **********************************************************/
 /* @import "./css/tabs/tab_title_in_firefox_titlebar.css"; /**/
-/* @import "./css/tabs/tab_title_in_firefox_titlebar_fx65.css"; /**/
+@import "./css/tabs/tab_title_in_firefox_titlebar_fx65.css"; /**/
 /* @import "./css/tabs/tab_title_in_firefox_titlebar_centered.css"; /**/
 
 /* Tab scroll buttons position - [only use one at a time] ***************************************/
@@ -500,7 +500,7 @@
 /************************************************************************************************/
 
 @import "./css/generalui/private_mode_indicator_hidden.css"; /**/
-@import "./css/generalui/bookmark_icons_colorized.css"; /**/
+/* @import "./css/generalui/bookmark_icons_colorized.css"; /**/
 /* @import "./css/generalui/bookmarks_smaller_more_bookmarks_icon.css"; /**/
 /* @import "./css/generalui/send_to_device_menuitems_hidden.css"; /**/
 /* @import "./css/generalui/set_as_desktop_background_menuitems_hidden.css"; /**/
@@ -605,11 +605,11 @@
 /* [!] not compatible to 'tabs toolbar - below main content' option *****************************/
 /* [!] not compatible to 'bookmarks toolbar autohide' option ************************************/
 /* [!] SUPPORT THREAD: https://github.com/aris-t2/customcssforfx/issues/73 **********************/
-/* @import "./css/toolbars/addonbar_move_bookmarks_toolbar_to_bottom.css"; /**/  /* <--- EXPERIMENTAL */
-/* @import "./css/toolbars/addonbar_status_in_addonbar.css"; /**/  /* <--- EXPERIMENTAL */
-/* @import "./css/toolbars/addonbar_content_on_the_right.css"; /**/  /* <--- EXPERIMENTAL */
+@import "./css/toolbars/addonbar_move_bookmarks_toolbar_to_bottom.css"; /**/  /* <--- EXPERIMENTAL */
+@import "./css/toolbars/addonbar_status_in_addonbar.css"; /**/  /* <--- EXPERIMENTAL */
+@import "./css/toolbars/addonbar_content_on_the_right.css"; /**/  /* <--- EXPERIMENTAL */
 /* [!] Fx 65+ create additional toolbar for 'bookmarks toolbar items' on navigation toolbar *****/
-/* @import "./css/toolbars/addonbar_extra_bookmarks_toolbar_below_navbar_fx65.css"; /**/  /* <--- EXPERIMENTAL */
+@import "./css/toolbars/addonbar_extra_bookmarks_toolbar_below_navbar_fx65.css"; /**/  /* <--- EXPERIMENTAL */
  
 /* GENERAL TOOLBAR SETTINGS *********************************************************************/
 @import "./css/toolbars/toolbars_old_padding.css"; /**/
@@ -691,7 +691,7 @@
 /* @import "./css/locationbar/identitybox_padlock_icon_hidden.css"; /**/
 
 /* additional icons/buttons and tweaks for third party page action buttons **********************/
-@import "./css/locationbar/icons_colorized.css"; /**/
+/* @import "./css/locationbar/icons_colorized.css"; /**/
 /* @import "./css/locationbar/reader_alternative_icon.css"; /**/
 /* @import "./css/locationbar/popup_blocked_button_hidden.css"; /**/
 /* @import "./css/locationbar/zoom_button_hidden.css"; /**/
